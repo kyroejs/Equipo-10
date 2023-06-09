@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,29 +8,65 @@
     <link rel="stylesheet" href="css/form.css">
     <title>Registro</title>
 </head>
+
 <body>
     <header class="header">
         <div class="header__search">
-          <input class="header__search-input" type="text" placeholder="Buscar">
+            <input class="header__search-input" type="text" placeholder="Buscar">
         </div>
         <div class="header__login">
-          <img class="header__login-image" src="login.png" alt="Iniciar sesión">
+            <img class="header__login-image" src="login.png" alt="Iniciar sesión">
         </div>
         <div class="header__cart">
-          <img class="header__cart-image" src="cart.png" alt="Carrito de compras">
+            <img class="header__cart-image" src="cart.png" alt="Carrito de compras">
         </div>
         <nav class="header__nav">
-          <ul class="header__nav-list">
-            <li class="header__nav-item"><a href="pagina1.html">Página 1</a></li>
-            <li class="header__nav-item"><a href="pagina2.html">Página 2</a></li>
-            <li class="header__nav-item"><a href="pagina3.html">Página 3</a></li>
-            <li class="header__nav-item"><a href="pagina4.html">Página 4</a></li>
-            <li class="header__nav-item"><a href="pagina5.html">Página 5</a></li>
-            <li class="header__nav-item"><a href="pagina6.html">Página 6</a></li>
-            <li class="header__nav-item"><a href="pagina7.html">Página 7</a></li>
-          </ul>
+            <ul class="header__nav-list">
+                <li class="header__nav--categorias"><a href="pagina1.html">Categorías</a></li>
+                <li class="header__nav-item"><a href="pagina2.html">Audiolibros </a></li>
+                <li class="header__nav-item"><a href="pagina3.html">Autores</a></li>
+                <li class="header__nav-item"><a href="pagina4.html">Editoriales</a></li>
+                <li class="header__nav-item"><a href="pagina5.html">Libreria</a></li>
+                <li class="header__nav-item"><a href="pagina6.html">Más vendidos</a></li>
+                <li class="header__nav--recomendaciones"><a href="pagina7.html">Recomendaciones</a></li>
+            </ul>
         </nav>
-      </header>
-      
+    </header>
+    <main>
+        <form class="form-register">
+            <h2>Registro</h2>
+            <div class="form__div">
+                <input class="form__input" placeholder="Nombre" type="text" id="input1" name="input1">
+            </div>
+            <div>
+                <input class="form__input" placeholder="Apellido" type="text" id="input2" name="input2">
+            </div>
+            <div>
+                <input class="form__input" placeholder="Correo" type="text" id="input3" name="input3">
+            </div>
+            <div>
+                <input class="form__input" placeholder="Contraseña" type="text" id="input4" name="input4">
+            </div>
+            <div>
+                <input class="form__input" placeholder="Validar contraseña" type="text" id="input5" name="input5">
+            </div>
+            <div class="form__terminos">
+                <div>
+                    <input class="form__checkbox" type="checkbox" id="checkbox" name="checkbox">
+                </div>
+
+                <div>
+                    <label for="checkbox">Aceptar terminos y condiciones</label>
+                </div>
+               </div>
+            </div>
+            
+            <button class="form__boton" type="submit">Registrarme</button>
+        </form>
+
+
+    </main>
+
 </body>
+
 </html>

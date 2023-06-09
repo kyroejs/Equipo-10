@@ -1,7 +1,111 @@
-:root{
-    --primary-color:rgba(164, 92, 64, 1);
-    --secondary-color :rgba(185, 92, 80, 1);
-    --coral-color:rgba(222, 132, 125, 1);
-    --neutral-white-color:rgba(255, 255, 255, 1);
-    --neutra-black-color:background: rgba(0, 0, 0, 1);
+:root {
+    --primary-color: rgba(164, 92, 64, 1);
+    --secondary-color: rgba(185, 92, 80, 1);
+    --coral-color: rgba(222, 132, 125, 1);
+    --neutral-white-color: rgba(255, 255, 255, 1);
+    --neutra-black-color: background: rgba(0, 0, 0, 1);
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0;
+}
+
+header {
+    width: 1450px;
+    height: 110px;
+    background-color: var(--primary-color);
+}
+
+.header__nav>ul {
+    display: flex;
+}
+
+.header__nav-list>li {
+    text-align: center;
+    list-style: none;
+}
+
+.header__nav--recomendaciones {
+    margin-right: 200px;
+}
+
+.header__nav-list a {
+    font-size: 20px;
+    text-decoration: none;
+    color: var(--neutral-white-color);
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://images.pexels.com/photos/2167677/pexels-photo-2167677.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+
+.form-register {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 100px;
+    height: 50%;
+    width: 50%;
+    border: 1px solid bisque;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.form__input {
+    width: 75%;
+    box-sizing: border-box;
+    padding: 8px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    height: 35px;
+    border-radius: 10px;
+    border: solid 1px;
+    border-color: var(--coral-color);
+}
+
+
+.form__input:focus {
+    border: 2px solid aquamarine;
+}
+
+.form__terminos {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.form__terminos label{
+   margin-left: 10px;
+}
+
+
+.form__checkbox {
+    height: 20px;
+    width: 20px;
+}
+
+.form__boton{
+    margin-top: 30px;
+    height: 30px;
+    width: 60%;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color:var(--coral-color);
+    border-color: var(--coral-color);
+    color: var(--neutral-white-color);
 }
