@@ -1,0 +1,70 @@
+
+*{
+    margin: 0;
+    padding: 0;  
+}
+
+main{
+    padding: 5%  10% 5% 10%;
+    background-image: url("../imagenes/pexels-ann-poan-5797899.jpg"); 
+}
+
+.main__titulo{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 1000;
+    font-family: 'Delius Unicase';
+}
+
+.main__campo,main__politica,main__archivos{
+    margin-left: 70px; 
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Delius Unicase';
+}
+
+.main__formulario{
+    border-radius: 3%;
+    background-color: rgba(0, 0, 0, 25%);
+    border-color:  rgba(0, 0, 0, 25%);
+}
+
+.main__parrafo{
+    margin-left: 70px;
+    font-size: 20px;
+    font-family:'Open Sans';
+}
+
+span{
+    font-family:'Open Sans';
+}
+
+input{
+    margin-left: 70px;
+    border-radius: 6px;
+    border-color: rgb(222, 132, 122);
+}
+
+
+textarea{
+    margin-left: 70px;
+    margin-top: 10px;
+    border-radius: 6px;
+    margin-right: 60px;
+}
+
+
+button{
+    padding: 5px 20px 5px 20px;
+    background-color: rgb(222, 132, 125);
+    border-color: rgb(222, 132, 125) ;
+    border-radius: 5px;
+    color: aliceblue;
+    margin-left: 70px;
+}
+
+
+
+
+
+
