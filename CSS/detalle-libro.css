@@ -1,6 +1,6 @@
 @font-face{
     font-family: 'Open-Bold';
-    src: url('../tipografias/Delius_Unicase/Open_Sans/static/OpenSans-SemiBold.ttf');
+    src: url('../TIPOGRAFIAS/static/OpenSans-SemiBold.ttf');
 }
 
 :root {
@@ -86,7 +86,7 @@ color:var(--neutral-white-color);
 }
 
 .header__nav-list a {
-    font-size: 30px;
+    font-size: 20px;
     text-decoration: none;
     color: var(--neutral-white-color);
     font-family: 'Open-Bold';
