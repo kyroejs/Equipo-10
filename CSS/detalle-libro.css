@@ -299,6 +299,18 @@ li{
     color: var(--color-cafe);
 }
 
+.carrusel__tit{
+    font-family: 'Delius Unicase', cursive;
+    text-align: center;
+}
+
+.carrusel__cards{
+    background-color: var(--coral-color);
+    width: 100%;
+    height: 450px;
+    margin-bottom: 70px;
+}
+
 footer {
     max-width: 100%;
     height: 600px;
