@@ -11,10 +11,3 @@ button.addEventListener("click", function (event) {
     }, 1000);
 
 });
-var butn = document.getElementById("myButton");
-
-button.addEventListener("click", function(event) {
-  event.preventDefault(); // Evita la recarga de la página
-  // Tu código aquí
-  console.log('El botón ha sido presionado');
-});
