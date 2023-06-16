@@ -51,28 +51,30 @@
     </nav>
   </header>
   <main>
-    <form class="form-register">
+    <div id="mensaje-registro" style="display: none;" class="confirmacion-registro">
+      <p class="confirmacion-registro__texto">¡Te has registrado con éxito!</p>
+    </div>
+    <form id="registro" class="form-register">
       <h2 class="form-register__title">Registro</h2>
       <div class="form__div">
-        <input class="form__input" placeholder="Nombre" type="text" id="input1" name="input1">
+        <input required class="form__input" placeholder="Nombre" type="text" id="nombre" name="input1">
       </div>
       <div>
-        <input class="form__input" placeholder="Apellido" type="text" id="input2" name="input2">
+        <input required class="form__input" placeholder="Apellido" type="text" id="apellido" name="input2">
       </div>
       <div>
-        <input class="form__input" placeholder="Correo" type="text" id="input3" name="input3">
+        <input required class="form__input" placeholder="Correo" type="email" id="email" name="input3">
       </div>
       <div>
-        <input class="form__input" placeholder="Contraseña" type="text" id="input4" name="input4">
+        <input required class="form__input" placeholder="Contraseña" type="password" id="contraseña" name="input4">
       </div>
       <div>
-        <input class="form__input" placeholder="Validar contraseña" type="text" id="input5" name="input5">
+        <input required class="form__input" placeholder="Validar contraseña" type="password" id="contraseña-validar" name="input5">
       </div>
       <div class="terminos">
         <div>
-          <input class="checkbox__terminos" type="checkbox" id="checkbox" name="checkbox">
+          <input required class="checkbox__terminos" type="checkbox" id="checkbox" name="checkbox">
         </div>
-
         <div>
           <label for="checkbox">Aceptar terminos y condiciones</label>
         </div>
@@ -80,7 +82,7 @@
       </div>
       <div>
         <div class="conatiner__register">
-          <button class="boton-register" type="submit">Registrarme</button>
+          <button id="boton-registro" class="boton-register" type="">Registrarme</button>
         </div>
 
     </form>
@@ -88,6 +90,7 @@
 
   </main>
 
+  <script src="JS/app.js"></script>
 </body>
 
 </html>

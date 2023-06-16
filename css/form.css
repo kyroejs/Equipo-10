@@ -100,3 +100,17 @@ main {
     border-color: var(--coral-color);
     color: var(--neutral-white-color);
 }
+
+#mensaje-registro{
+    height: 40px;
+    width: 350px;
+    background-color: rgba(0, 128, 0, 0.329);
+    border: none ;
+}
+
+#mensjae-registro , p{
+    padding-top: 5px;
+    text-align: center;
+    color: var(--neutral-white-color);
+
+}
