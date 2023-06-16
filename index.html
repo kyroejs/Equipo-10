@@ -5,8 +5,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="CSS/estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Delius+Unicase&family=Fraunces:opsz,wght@9..144,700&family=Poppins:ital,wght@1,600&display=swap" rel="stylesheet">
 </head>
 <body>
+    <header class="encabezado">
+    </header>
+
+    <main class="main">
+        <section class="main__seccion">
+            <h1 class="main__titulo">CONTACTA CON NOSOTROS</h1>
+            <br><br><br>
+            <p class="main__parrafo">Si quieres contactar con el vendedor de tu pedido, rellena el siguiente formulario: ​</p> 
+            <br><br><br>
+            <form action="JS/EJEMPLO.JS" method="post"></form>
+            <fieldset class="main__formulario">
+                
+                <br><br>
+                <label class="main__campo"for="nombre">NOMBRE: <br>
+                    <input type="text" id="nombre" size="50">
+                </label> <br><br>
+                <label class="main__campo"for="apellido">APELLIDOS: <br>
+                    <input type="text" id="apellido" size="50">
+                </label><br><br>
+                <label class="main__campo"for="mail">EMAIL: <br>
+                    <input type="email" id="mail" size="50" placeholder="ejemplo@hotmail.com">
+                </label> <br><br>
+                <label class="main__campo"for="tele">TELÉFONO: <br>
+                    <input type="tel" id="tele" size="50" placeholder="55 73 84 54 78">
+                </label> <br><br>
+                <label class="main__campo"for="tele">DESCRIPCIÓN: <br>
+                    <textarea name="area-de-texto" id="text1" cols="130" rows="10" placeholder="Breve descripción" required></textarea>
+                </label>
+                <br><br><br>
+                <p class="main__parrafo">He leído y acepto la política de privacidad</p>
+                
+                <label  class="main__politica"for="cuadro">  <br>
+                    <input type="checkbox" id="cuadro"> 
+                    <span>Sí</span>
+                </label> <br><br>
+                <p class="main__parrafo">Adjuntar un archivo</p>
+                <label class="main__archivos"for="arch"><br>
+                    <input type="file" id="arch"accept=".jpg, .png, .pdf" title="Solo acepta formatos .jpg, png, .pdf"> 
+                </label>
+                
+                <br><br>
+                <label class="main__boton--color-coral"  for="la7">
+                    <button id="la7" type="submit">Enviar </button>
+                </label>
+                <br><br><br>
+            
+            </fieldset>
+        </section>
+
+        <footer>
+        </footer>
+    </main>
+    
 </body>
 </html>
