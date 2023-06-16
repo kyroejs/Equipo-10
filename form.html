@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/form.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Delius+Unicase&family=Fraunces:opsz,wght@9..144,700&family=Poppins:ital,wght@1,600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/header.css">
+  <title>Registro</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container__header">
+      <div class="header__logo">
+        <figure class="header__logo-imagen-texto">
+          <img class="header__logo-image" src="img/book.svg" alt="Iniciar sesión" width="50" height="50">
+          <figcaption class="header__logo-texto">BOOK SEARCH</figcaption>
+        </figure>
+      </div>
+      <div class="header__search">
+        <input class="header__search-input" type="text" placeholder="Buscar por autor, título o categoría ">
+      </div>
+      <div class="header-icons">
+        <div class="icon__login">
+          <img class="header__login-image" src="img/user-solid.svg" alt="Iniciar sesión" width="30" height="30">
+        </div>
+        <div class="header__cart">
+          <img class="icon__cart-image" src="img/cart-shopping-solid.svg" alt="Carrito de compras" width="30"
+            height="30">
+        </div>
+      </div>
+    </div>
+    <nav class="header__nav">
+      <ul class="header__nav-list">
+        <li class="header__nav--categorias"><a href="pagina1.html">Categorías</a></li>
+        <li class="header__nav-item"><a href="pagina2.html">Audiolibros </a></li>
+        <li class="header__nav-item"><a href="pagina3.html">Autores</a></li>
+        <li class="header__nav-item"><a href="pagina4.html">Editoriales</a></li>
+        <li class="header__nav-item"><a href="pagina5.html">Libreria</a></li>
+        <li class="header__nav-item"><a href="pagina6.html">Más vendidos</a></li>
+        <li class="header__nav--recomendaciones"><a href="pagina7.html">Recomendaciones</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div id="mensaje-registro" style="display: none;" class="confirmacion-registro">
+      <p class="confirmacion-registro__texto">¡Te has registrado con éxito!</p>
+    </div>
+    <form id="registro" class="form-register">
+      <h2 class="form-register__title">Registro</h2>
+      <div class="form__div">
+        <input required class="form__input" placeholder="Nombre" type="text" id="nombre" name="input1">
+      </div>
+      <div>
+        <input required class="form__input" placeholder="Apellido" type="text" id="apellido" name="input2">
+      </div>
+      <div>
+        <input required class="form__input" placeholder="Correo" type="email" id="email" name="input3">
+      </div>
+      <div>
+        <input required class="form__input" placeholder="Contraseña" type="password" id="contraseña" name="input4">
+      </div>
+      <div>
+        <input required class="form__input" placeholder="Validar contraseña" type="password" id="contraseña-validar" name="input5">
+      </div>
+      <div class="terminos">
+        <div>
+          <input required class="checkbox__terminos" type="checkbox" id="checkbox" name="checkbox">
+        </div>
+        <div>
+          <label for="checkbox">Aceptar terminos y condiciones</label>
+        </div>
+      </div>
+      </div>
+      <div>
+        <div class="conatiner__register">
+          <button id="boton-registro" class="boton-register" type="">Registrarme</button>
+        </div>
+
+    </form>
+
+
+  </main>
+
+  <script src="JS/app.js"></script>
+</body>
+
+</html>

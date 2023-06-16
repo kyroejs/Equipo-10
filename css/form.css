@@ -1,0 +1,116 @@
+:root {
+    --primary-color: rgba(164, 92, 64, 1);
+    --secondary-color: rgba(185, 92, 80, 1);
+    --coral-color: rgba(222, 132, 125, 1);
+    --neutral-white-color: rgba(255, 255, 255, 1);
+    --neutra-black-color: background: rgba(0, 0, 0, 1);
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0;
+    font-family: 'Delius Unicase', cursive;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://images.pexels.com/photos/2167677/pexels-photo-2167677.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+
+.form-register {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 50%;
+  border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(222, 132, 125, 0); 
+    backdrop-filter: invert(80%);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+}
+
+.form-register__title{
+    color: var(--neutral-white-color);
+    margin-top: 18px;
+    margin-bottom: 10px;
+}
+
+.form__input {
+    width: 75%;
+    box-sizing: border-box;
+    padding: 8px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    height: 35px;
+    border-radius: 10px;
+    border: solid 1px;
+    border-color: var(--coral-color);
+}
+
+
+.form__input:focus {
+    border: 2px solid aquamarine;
+}
+
+.terminos {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.terminos label{
+   margin-left: 10px;
+}
+
+
+.checkbox {
+    height: 20px;
+    width: 20px;
+}
+
+.container__register{
+    display: flex;
+    justify-content: center;
+}
+.boton-register{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 30px;
+    width: 60%;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color:var(--coral-color);
+    border-color: var(--coral-color);
+    color: var(--neutral-white-color);
+}
+
+#mensaje-registro{
+    height: 40px;
+    width: 350px;
+    background-color: rgba(0, 128, 0, 0.329);
+    border: none ;
+}
+
+#mensjae-registro , p{
+    padding-top: 5px;
+    text-align: center;
+    color: var(--neutral-white-color);
+
+}

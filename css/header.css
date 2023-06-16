@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'Open-Bold';
+    src: url('../TIPOGRAFIAS/static/OpenSans-SemiBold.ttf');
+}
+
+:root {
+    --primary-color: rgba(164, 92, 64, 1);
+    --secondary-color: rgba(185, 92, 80, 1);
+    --coral-color: rgba(222, 132, 125, 1);
+    --neutral-white-color: rgba(255, 255, 255, 1);
+    --neutral-white-color-transparente: rgba(255, 255, 255, 0.493);
+    --neutra-black-color: background: rgba(0, 0, 0, 1);
+}
+
+
+header {
+    max-width: 100%;
+    height: 200px;
+    background-color: var(--primary-color);
+    padding: 50px 7%;
+}
+
+.header__logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+figure {
+    text-align: center;
+}
+
+.header__logo-texto {
+    display: flex;
+    color: var(--neutral-white-color);
+}
+
+.header__search {
+    text-align: center;
+}
+
+.container__header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__search-input {
+    width: 700px;
+    height: 33px;
+    border-radius: 10px;
+    border: 2px solid;
+    background-color: var(--primary-color);
+    color: var(--neutral-white-color);
+}
+
+.header__search-input::placeholder {
+    color: var(--neutral-white-color-transparente);
+    padding-left: 15px;
+    font-family: 'Open-Bold';
+}
+
+.header-icons {
+    display: flex;
+    justify-content: space-between;
+    width: 9%;
+}
+
+.header__nav>ul {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+
+.header__nav-list>li :hover {
+    text-decoration: underline;
+    color: var(--neutral-white-color);
+}
+
+.header__nav-list>li {
+    text-align: center;
+    list-style: none;
+}
+
+.header__nav-list a {
+    font-size: 20px;
+    text-decoration: none;
+    color: var(--neutral-white-color);
+    font-family: 'Open-Bold';
+}
