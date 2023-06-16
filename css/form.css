@@ -13,66 +13,6 @@
     font-family: 'Delius Unicase', cursive;
 }
 
-header {
-    max-width: 100%;
-    height: 110px;
-    background-color: var(--primary-color);
-}
-.container__header{
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px;
-}
-.header__search{
-    padding-left: 150px;
-}
-.header__search-input{
-width: 700px;
-height: 33px;
-border-radius: 10px;
-border: 1px solid;
-background-color:var(--primary-color);
-color:var(--neutral-white-color);
-}
-
-.header__search-input::placeholder {
-    color:var(--neutral-white-color);
-    padding-left: 15px;
-  }
-
-
-.header-icons{
-    display: flex;
-    justify-content: space-between;
-    width: 5%;
-}
-
-.header__nav > ul {
-    display: flex;
-}
-
-.header__nav-list>li {
-    text-align: center;
-    list-style: none;
-}
-
-.header__nav--recomendaciones {
-    margin-right: 200px;
-}
-
-.header__nav-list a {
-    font-size: 20px;
-    text-decoration: none;
-    color: var(--neutral-white-color);
-}
-header__cart-image{
-    fill: red;
-}
-
 body {
     height: 100%;
     margin: 0;
