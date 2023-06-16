@@ -17,7 +17,10 @@
     padding: 0;
     font-family: 'Delius Unicase', cursive;
 }
-
+.titulo-principal{
+    text-align: center;
+    margin-bottom: 20px;
+}
 header {
     max-width: 100%;
     height: 100px;
@@ -110,6 +113,7 @@ figure {
     background-color: var(--secondary-color);
     flex-direction: column;
     align-items: center;
+    margin-top: 20px;
 }
 
 .container-libro .card-libro {
@@ -127,6 +131,31 @@ figure {
     margin-left: 18px;
 }
 
+main{
+    display: flex;
+    flex-direction: row;
+}
+aside{
+    width: 10%;
+    margin-top: 20px;
+}
+
+.filtros-lista li {
+    list-style: none;
+    padding-top: 5px;
+    margin-left: 30px;
+    width: 150px;
+    height: 30px;
+    font-size: medium;   
+     border-bottom: 1px solid black;
+}
+
+section{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
 .boton-detalle{
     text-decoration: none;
