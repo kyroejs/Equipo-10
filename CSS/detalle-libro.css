@@ -4,7 +4,7 @@
 }
 
 :root {
-    --primary-color: rgba(164, 92, 64, 1);
+    --primary-color: hsl(17, 44%, 45%);
     --secondary-color: rgba(185, 92, 80, 1);
     --coral-color: rgba(222, 132, 125, 1);
     --neutral-white-color: rgba(255, 255, 255, 1);
@@ -15,7 +15,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Delius Unicase', cursive;
+    font-family: 'Open-Bold'
 }
 
 header {
@@ -37,6 +37,7 @@ figure{
 .header__logo-texto{
     display: flex;
     color: var(--neutral-white-color);
+    font-family: 'Delius Unicase', cursive;
 }
 
 .header__search{
@@ -90,8 +91,98 @@ color:var(--neutral-white-color);
     text-decoration: none;
     color: var(--neutral-white-color);
     font-family: 'Open-Bold';
-
 }
+aside{
+    width: 50%;
+    display: inline-block;
+
+    /*position: sticky;*/
+}
+.detalles{
+    padding: 50px 7%;
+    display: inline-block;
+}
+
+.detalles__aud-img{
+    height: 100%;
+    width: 50%;
+}
+
+.detalles__aud-img-imagen{
+    margin: 50px;
+}
+
+.detalles__audio{
+    padding: 0% 13% 0% 13%;    
+    border: 3px solid  hsl(17, 44%, 45%);
+    display: inline-block;
+    text-align: center;
+    margin-left: 10%;
+    border-radius: 15px;
+    vertical-align: baseline;
+    color: var(--primary-color);
+}
+
+.detalles__texto{
+    height: 100%;
+    width: 500px;
+}
+
+main{
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 100px ;
+}
+
+h1{
+    font-size: 50px;
+}
+
+h2{
+    color: var(--secondary-color);
+}
+
+.detalles__texto-icono{
+    display: flex;
+    flex-direction: row-reverse; 
+}
+
+.estre--naranja{
+    color: orangered;
+}
+
+p{
+    text-align: justify;
+}
+
+.detalles__texto-boton{
+    display: inline-block;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+button{
+    background-color: var(--coral-color);
+    color: var(--neutral-white-color);
+    border-radius: 5px;
+    padding: 2px 70px 2px 70px;
+    border-color: var(--coral-color);
+    display: inline-block;
+    display: flex;
+    flex-direction: row-reverse;
+}
+    
+.detalles__texto-redes{
+    display: flex;
+    justify-content: space-evenly;
+}
+    
+    
+
+
+
 
 
 
